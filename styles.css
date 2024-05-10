@@ -1,0 +1,78 @@
+body {
+    font-family: 'Roboto Slab', sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    background-image: url("https://www.kayak.co.in/news/wp-content/uploads/sites/76/2023/08/THEME_HOTEL_SIGN_FIVE_STARS_FACADE_BUILDING_GettyImages-1320779330-3.jpg");
+}
+
+.maincnt {
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.frm {
+    width: 80%;
+    margin: auto;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #333;
+}
+
+.form-label {
+    margin-top: 10px;
+    color: #555;
+    font-weight: bold;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label[for^="ambience"], label[for^="hygiene"], label[for^="hospitality"], label[for^="food"], label[for^="rating"]{
+
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #ddd;
+    border-radius: 50%; /* Make the radio buttons round */
+    cursor: pointer;
+   
+ 
+}
+
+input[type="radio"]:checked + label {
+    background-color: #007bff;
+    color: #fff;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: vertical;
+}button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #0056b3;
+}
+
